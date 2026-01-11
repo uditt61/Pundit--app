@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://northindiapujari.com/wp-content/uploads/2025/03/banner2.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #da6c23;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.linkText a {
+  color: #da6c23;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #d35400;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #824e2b;
+}
+
+.registerLink {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.registerLink a {
+  color: #d35400;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.registerLink a:hover {
+  text-decoration: underline;
+}
+.passwordWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.passwordWrapper input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #666;
+  transition: color 0.2s ease;
+}
+
+.eyeIcon:hover {
+  color: #000;
+}
+.button:hover {
+  background-color: #da6c23;
+}
+
+.registerLink {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.registerLink a {
+  color: #d35400;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.registerLink a:hover {
+  text-decoration: underline;
+}
