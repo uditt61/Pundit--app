@@ -13,8 +13,9 @@ const sendEmail = async (to, subject, text) => {
       port: 465,
       secure: true,
       auth: {
-        user: "uditpandey61@gmail.com" , // your email
-        pass: "jmblrskgrxcabkbt", //your app password           
+        user: process.env.EMAIL_USER,    
+        pass: process.env.EMAIL_PASS,
+                   
       },
       tls: {
         rejectUnauthorized: false,
